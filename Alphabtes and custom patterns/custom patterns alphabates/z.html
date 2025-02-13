@@ -7,7 +7,8 @@
 </head>
 <body>
     <script>
-
+let i;
+let j;
         for(x=1; x<=7; x++)
     {
         for(y=1; y<=7; y++)
@@ -16,8 +17,20 @@
             {
                 document.write("* " );
             }
-            else if((x==2 && y==6) || (x==3 && y==5) || (x==4 && y==4) || (x==5 && y==3) || (x==6 && y==2))
+            else if(x==2 && y==6)
             {
+                document.write("* ");
+            }
+            else if (x==3 && y==5 ) {
+                document.write("* ");
+            }
+            else if (x==4 && y==4 ) {
+                document.write("* ");
+            }
+            else if (x==5 && y==3 ) {
+                document.write("* ");
+            }
+            else if (x==6 && y==2 ) {
                 document.write("* ");
             }
              else

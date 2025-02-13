@@ -7,13 +7,31 @@
 </head>
 <body>
     <script>
+
+        let i;
+        let j;
         for(i=1; i<=7; i++)
         {
             for(j=1; j<=5; j++)
             {
-                if((j==2 && i==1) || (j==3 && i==1) || (j==4 && i==1) || (j==1 && i==2) || (j==5 && i==2) || (j==1 && i==2))
+                if(j==2 && i==1)
                 {
                    document.write("* ");
+                }
+                else if (j==3 && i==1){
+                    document.write("* ");
+                }
+                else if (j==4 && i==1){
+                    document.write("* ");
+                }
+                else if (j==1 && i==2){
+                    document.write("* ");
+                }
+                else if (j==5 && i==2){
+                    document.write("* ");
+                }
+                else if (j==1 && i==2){
+                    document.write("* ");
                 }
                 else if((j==1 && i==4) || (j==3 && i==4) || (j==4 && i==4) || (j==5 && i==4))
                 {
