@@ -1,16 +1,27 @@
-let digits = [54, 94 ,51 ,32 ,10 ,40 ,2 ,6 ,3,]
+let userNum=[];
 
-for(let i=0; i<=digits.length; i++)
+
+let arrayInputLength= prompt("Enter array length=");
+
+
+for(i=0; i<arrayInputLength; i++){
+    userNum[i]=parseInt(prompt("Enter number:"));
+}
+
+document.write("User input order :-   " + "  " + userNum + "<br>")
+
+
+for(let i=0; i<=userNum.length; i++)
 {
-    for(let j=0; j<=digits.length; j++)
+    for(let j=0; j<=userNum.length; j++)
     {
-        if(digits[i] > digits[j])
+        if(userNum[i] > userNum[j])
         {
-             let temp = digits[i]
-             digits[i] = digits[j]
-             digits[j] = temp 
+             let temp = userNum[i];
+             userNum[i] = userNum[j];
+             userNum[j] = temp ;
         }
     }
 }
 
-document.write("Descening order of the array is :-   " + "  " + digits)
+document.write("Descening order of the array is :-   " + "  " + userNum)
