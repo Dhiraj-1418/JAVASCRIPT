@@ -23,7 +23,7 @@ document.write("<br><hr>");
 
 // to remove elements in last of arrays length... we use arrayName.pop method.
 document.write(
-  "// to add elements in last of arrays length and return it... we use arrayName.pop method. <br><br>"
+  "// to remove elements in last of arrays length and return it... we use arrayName.pop method. <br><br>"
 );
 let rmEle = [10, 12, 15, 78, 19];
 
