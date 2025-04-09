@@ -1,0 +1,28 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  height: 100vh;
+}
+.container-fluid .container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-fluid .container .imgBox {
+  height: 600px;
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+.container-fluid .container .imgBox .images {
+  height: 400px;
+  width: 80%;
+  background-color: black;
+  border-radius: 15px;
+  margin: 50px auto;
+}
